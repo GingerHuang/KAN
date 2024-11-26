@@ -1,6 +1,8 @@
 import torch
 import torch.nn.functional as F
+
 import math
+
 from torchinfo import summary
 
 class TaylorKANLinear(torch.nn.Module):
